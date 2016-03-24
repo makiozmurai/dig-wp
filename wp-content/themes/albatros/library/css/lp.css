@@ -1,0 +1,77 @@
+/*********************
+LANDING PAGE STYLES
+*********************/
+#content.lp-wrap {
+  margin-top: 2.5em;
+  margin-bottom:3em;
+}
+#content.lp-wrap .hentry header {
+background: #323944;
+padding:2em;
+text-align:center;
+color: #fff;
+}
+.lp-containar .eyecatch.lp{
+width:100%;
+max-width:1400px;
+margin:auto;
+text-align:center;
+}
+.lp-containar .catchcopy{
+text-align:center;
+margin:1em 0.3em 0;
+font-size:2em;
+}
+
+/* ランディングページ要素スタイル */
+#content.lp-wrap h2{
+  font-size:1.8em;
+  padding-left:0;
+  padding-right:0;
+  margin-top:2em;
+  background:none;
+  color: #323944;
+}
+#content.lp-wrap h2:before,
+#content.lp-wrap h2:after{
+  display:none;
+}
+#content.lp-wrap h3{
+  font-size:1.5em;
+  margin-top:2em;
+  padding-left:0;
+  padding-right:0;
+  border:none;
+}
+#content.lp-wrap h4{
+  font-size:1.2em;
+  margin-top:2em;
+}
+#content.lp-wrap strong{
+  background:yellow;
+}
+#content.lp-wrap em{
+  border-bottom:1px dotted lightblue;
+}
+#content.lp-wrap ul,
+#content.lp-wrap ol{
+
+}
+#content.lp-wrap blockquote{
+  font-style:italic;
+}
+
+@media only screen and (max-width: 767px) {
+  .lp-containar .catchcopy{
+    font-size:1.8em;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .lp-wrap #main{
+    width:100%;
+  }
+  .lp-wrap .entry-content{
+    padding: 4em 9em;
+  }
+}

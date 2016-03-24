@@ -1,3 +1,5 @@
+~*
+*.swp
 *.log
 .htaccess
 sitemap.xml
@@ -11,8 +13,6 @@ wp-content/cache/
 wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
-
-/readme.html
-/license.txt
-
+wp-content/plugins/wordpress-popular-posts/cache/
+wp-content/plugins/wp-file-cache/cache/
+wp-content/plugins/did2-ab-testing/tmp/

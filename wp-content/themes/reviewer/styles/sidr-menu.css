@@ -1,0 +1,52 @@
+.side_widget a{
+  color: #fff;
+}
+
+
+/************************************
+** フッターのモバイルメニュー
+************************************/
+#footer-mobile-buttons{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f7f7f7;
+  text-align: center;
+  opacity: 0.95;
+  height: 45px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+#footer-mobile-buttons a{
+  color: #333;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  float: left;
+  width: 500px;
+  font-family: arial;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#footer-mobile-buttons a:hover{
+  background-color: #eee;
+}
+
+#footer-mobile-buttons a .menu-icon{
+  font-size: 1.4em;
+}
+
+#footer-mobile-buttons a .menu-caption{
+  font-size: 0.8em;
+  position: relative;
+}
+
+#footer-mobile-buttons .fa-times{
+  color: #D40000;
+}

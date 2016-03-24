@@ -1,0 +1,45 @@
+
+.form_headline { margin-top:20px; background:#f2f2f2; padding:10px 10px 8px 10px; font-size:14px; font-weight:bold; border:1px solid #ccc; margin-bottom:-1px; position:relative;
+-moz-border-radius:6px 6px 0px 0px; -khtml-border-radius:6px 6px 0 0; -webkit-border-radius:6px 6px 0 0; border-radius:6px 6px 0 0;
+background: rgb(255,255,255);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+}
+
+.cf-cft { border:1px solid #ccc; margin:0 0 20px 0; padding:20px 10px 10px; -moz-border-radius:0px 0px 6px 6px; -khtml-border-radius:0px 0px 6px 6px; -webkit-border-radius:0px 0px 6px 6px; border-radius:0px 0px 6px 6px; background:#fff; }
+.cf-cft2 { border:1px solid #ccc; margin:20px 0; padding:20px 10px 10px; -moz-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; background:#fff; }
+
+#cft .cf-cft:after { content: "."; display: block; clear: both; height: 0; visibility: hidden; }
+#cft .cf-cft { display:inline-block; }
+/* exlude MacIE5 \*/
+* html #cft .cf-cft { height: 1% }
+#cft .cf-cft { display:block; }
+/* end MacIE5 */
+
+
+/* cft preset */
+#cft dl { margin:0; padding:0; }
+#cft dl.dl_file { width:100%; }
+#cft dl.dl_file input { border:1px solid #ccc; padding:5px; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; }
+#cft dl.dl_textarea textarea { width:100%; }
+#cft dt { margin:10px 2px 0; font-size:12px; text-align:left; width:100%; }
+#cft dt .hideKey { visibility:hidden; }
+#cft dd { margin:0 0 30px 0; text-align:left; width:100%; }
+#cft label, #cft dl.dl_checkbox span, #cft dl.dl_radio span { font-size:12px; font-weight:bold; margin:0; background:url(bullet1.png) no-repeat left top; padding:0px 0 7px 18px; clear:both; width:100%; }
+#cft p label { background:none; padding:0; font-weight:normal; }
+
+#cft fieldset { margin:0 0 20px 0; padding:10px 10px 20px; border:1px solid #ccc; -moz-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; }
+#cft fieldset legend { font-size:12px; font-weight:bold; padding:0 10px;}
+#cft fieldset dd { margin:0; }
+#cft fieldset label { }
+#cft fieldset dl.dl_checkbox { width:33%; height:50px; }
+
+#cft label.selectit { background:none; padding:0; }
+
+.hidden_field { display:none; }
+

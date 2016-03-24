@@ -1,0 +1,45 @@
+a:hover { color:#999; }
+
+.headline1, #page_headline, .post_item .title a, #post_title, .side_headline, #comment_headline, #comment_header ul li.comment_switch_active a, #comment_header ul li#comment_closed p,
+ #comment_header ul li a:hover
+  { color:#62676e; }
+
+.post_item .title a:hover, #related_post .post_date2, .widget_post_list .post_date2, .post_item ul li a:hover, #single_title_area .meta ul li a:hover
+ { color:#1f2630; }
+
+.post_date .month, #load_post a:hover, #wp-calendar td a:hover, #wp-calendar #prev a:hover, #wp-calendar #next a:hover, .widget_search #search-btn input:hover, .widget_search #searchsubmit:hover,
+ #site_description, #global_menu li a:hover, #global_menu li.active_menu, #global_menu ul ul a:hover, #submit_comment:hover, #post_pagination a:hover
+  { background-color:#62676e; }
+
+.post_date .date, #header_top_wrap, #global_menu ul ul a, #footer_bottom_wrap, .mobile #header_top, .mobile #previous_next_post a:hover
+ { background-color:#1f2630; }
+
+#guest_info input:focus, #comment_textarea textarea:focus, #submit_comment:hover
+ { border:1px solid #62676e; }
+
+#header_top a.menu_button:hover { border:1px solid #62676e; background:#62676e; color:#fff; }
+#header_top a.active { border:1px solid #62676e; color:#fff; background:#62676e; box-shadow:1px 1px 2px rgba(0,0,0,0.2) inset; }
+
+.mobile #global_menu ul ul a, .mobile #global_menu ul ul ul a, .mobile #global_menu ul ul ul ul a { background-color:#eee; }
+.mobile #global_menu ul ul a:hover, .mobile #global_menu ul ul ul a:hover, .mobile #global_menu ul ul ul ul a:hover { background-color:#62676e; }
+
+#header_bottom_wrap {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #dedede), color-stop(0.00, #ffffff));
+  background: -webkit-linear-gradient(#dedede, #ffffff);
+  background: -moz-linear-gradient(#dedede, #ffffff);
+  background: -o-linear-gradient(#dedede, #ffffff);
+  background: -ms-linear-gradient(#dedede, #ffffff);
+  background: linear-gradient(#dedede, #ffffff);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dedede', endColorstr='#ffffff', GradientType=0);
+}
+
+#footer_bottom_wrap:before { 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #ffffff), color-stop(0.00, #dedede));
+  background: -webkit-linear-gradient(#ffffff, #dedede);
+  background: -moz-linear-gradient(#ffffff, #dedede);
+  background: -o-linear-gradient(#ffffff, #dedede);
+  background: -ms-linear-gradient(#ffffff, #dedede);
+  background: linear-gradient(#ffffff, #dedede);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dedede', GradientType=0);
+}
+
