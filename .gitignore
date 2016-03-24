@@ -2,6 +2,7 @@
 *.swp
 *.log
 .htaccess
+.ftpconfig
 sitemap.xml
 sitemap.xml.gz
 wp-config.php
