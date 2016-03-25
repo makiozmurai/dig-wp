@@ -97,7 +97,7 @@ strong,
 dfn,
 em,
 .em {
-  font-style: italic; 
+  font-style: italic;
   border-bottom: 1px dotted pink;
 }
 
@@ -120,7 +120,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, serif;
-  font-size: 0.9em; 
+  font-size: 0.9em;
   padding: 0.05em 0.4em;
   border-radius: 3px;
   background: #F6F6F6;
@@ -269,7 +269,7 @@ nav ol {
 ========================================================================== */
 
 img {
-  border: 0; 
+  border: 0;
   vertical-align: bottom;
   max-width: 100%;
   height: auto;
@@ -521,7 +521,7 @@ textarea,
   max-width: 100%\0/; /*IE9用 */
 }
 
-  
+
   input[type="text"]:focus, input[type="text"]:active,
   input[type="password"]:focus,
   input[type="password"]:active,
@@ -766,7 +766,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #545B63;
-  -webkit-font-smoothing: antialiased; 
+  -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
 }
 
@@ -793,10 +793,10 @@ a {
   /*リンクをゆっくりと */
   a,
   a img{
-      -webkit-transition: 0.3s ease-in-out;  
-         -moz-transition: 0.3s ease-in-out;  
-           -o-transition: 0.3s ease-in-out;  
-              transition: 0.3s ease-in-out; 
+      -webkit-transition: 0.3s ease-in-out;
+         -moz-transition: 0.3s ease-in-out;
+           -o-transition: 0.3s ease-in-out;
+              transition: 0.3s ease-in-out;
   }
   /*画像をマウスオーバーで半透明に */
   a:hover img{
@@ -840,7 +840,7 @@ h2, .h2 {
   margin-bottom: 0.375em; }
 
 h3, .h3 {
-  font-size: 1.125em; 
+  font-size: 1.125em;
   font-weight: bold;
 }
 
@@ -882,7 +882,7 @@ HEADER STYLES
     padding:0;
   }
   #logo a {
-    color: white; 
+    color: white;
     width: 100%;
     height: 55px;
     display: table-cell;
@@ -895,7 +895,7 @@ HEADER STYLES
 	  width: 100%;
   }
 
-  
+
   #logo a:hover{
     color:yellow;
   }
@@ -922,7 +922,7 @@ HEADER STYLES
 .subnav form input{
   width:90%;
   width: 90%\0/; /* IE9用 */
-  max-width: 90%; 
+  max-width: 90%;
   max-width: 90%\0/; /* IE9用 */
   height:26px;
   line-height: 1.5;
@@ -1142,7 +1142,7 @@ POSTS & CONTENT STYLES
   }
   .hentry footer {
     padding: 1.5em 2em;
-    border-top: 1px solid #f8f9fa; 
+    border-top: 1px solid #f8f9fa;
     }
     .hentry footer h4{
       margin:0.5em 0;
@@ -1163,7 +1163,7 @@ POSTS & CONTENT STYLES
       content:'"';
     }
     .category-newpost{
-      border-top:1px dotted #eee;   
+      border-top:1px dotted #eee;
       margin-bottom: 2em;
     }
     .category-newpost li{
@@ -1458,7 +1458,7 @@ POSTS & CONTENT STYLES
   padding: 1.5em 2em;
   }
   .entry-content p {
-    margin: 0 0 1.6em; 
+    margin: 0 0 1.6em;
     line-height: 1.7;
   }
   .entry-content table {
@@ -1486,7 +1486,7 @@ POSTS & CONTENT STYLES
   .entry-content th {
     background-color: #f8f9fa;
     border-bottom: 1px solid #eaedf2;
-    border-right: 1px solid #eaedf2; 
+    border-right: 1px solid #eaedf2;
     padding: 7px;
     min-width: 6em;
     }
@@ -1595,7 +1595,7 @@ POSTS & CONTENT STYLES
   font-size: 13px;
 }
 .top-post-list .post-list a{
- display:block; 
+ display:block;
  padding:1em;
  text-decoration:none;
  color: #888;
@@ -1643,7 +1643,7 @@ POSTS & CONTENT STYLES
   color: #fff;
   font-size: 1em;
   padding: 3px;
-  margin-bottom: 0.75em; 
+  margin-bottom: 0.75em;
   margin-top: 0;
 }
 .widget .widgettitle span{
@@ -2113,7 +2113,7 @@ ARCHIVE PAGE STYLES
   .pagination li,
   .page-links li{
     margin: 0 3px!important;
-    display: inline-block; 
+    display: inline-block;
     min-height: 2.6em;
 	}
     .entry-content .page-links li:before{
@@ -2233,7 +2233,7 @@ COMMENT STYLES
 
 .comment-reply-link {
   font-size: 0.9em;
-  float: right; 
+  float: right;
   margin-bottom: 1em;
 }
 
@@ -2372,7 +2372,7 @@ LARGER MOBILE DEVICES
   /*********************
   POSTS & CONTENT STYLES
   *********************/
-  
+
     .alignleft, img.alignleft {
       margin-right: 1.5em;
       display: inline;
@@ -2414,7 +2414,7 @@ TABLET & SMALLER LAPTOPS
     position: relative;
     text-align: center;
 	}
-  
+
   .subnav form{
     width:130px;
     float: right;
@@ -2476,7 +2476,7 @@ TABLET & SMALLER LAPTOPS
 			filter: alpha(opacity=80);
 			-ms-filter: "alpha(opacity=80)";
             opacity:0.8;
-          } 
+          }
           .nav li ul.sub-menu li:last-child a,
           .nav li ul.children li:last-child a {
             border-bottom: 0; }
@@ -2634,7 +2634,7 @@ a.meanmenu-reveal {
 .mean-container .mean-nav ul li {
   position: relative;
   float: left;
-  width: 100%;
+  width: 20%;
 }
 .mean-container .mean-nav ul li span{
   display:none;
@@ -2652,7 +2652,7 @@ a.meanmenu-reveal {
   border-top: 1px solid rgba(255,255,255,0.5);
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .mean-container .mean-nav ul li li a {
@@ -2833,7 +2833,7 @@ SNS
   content:'B!';
   font-weight:bold;
   line-height: 1;
-} 
+}
 
 /* LINE */
 .sns  .line a {
@@ -2923,7 +2923,7 @@ Mobile Grid Styles
   .blog #content{
     margin:0;
   }
-  
+
 
   .top-post-list .post-list .entry-content .entry-title{
     font-size:1.1em;
@@ -3183,7 +3183,7 @@ Mobile Grid Styles
   .page-title,
   .entry-title {
     font-size:1.2em; }
-  
+
   .add.more{
     margin-left:-0.9em;
   }

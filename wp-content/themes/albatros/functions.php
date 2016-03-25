@@ -25,7 +25,7 @@ function rw_title( $title, $sep, $seplocation ) {
   if ( 'right' == $seplocation ) {
     $title .= get_bloginfo( 'name' );
   } elseif ( is_home() || is_front_page() ){
-	$title = $title . get_bloginfo( 'name' );  
+	$title = $title . get_bloginfo( 'name' );
   } else {
     $title = $title . "{$sep}" . get_bloginfo( 'name' );
   }
@@ -72,10 +72,11 @@ function opencage_remove_recent_comments_style() {
 SCRIPTS
 *********************/
 
-if (!is_admin()) {
-	function register_script(){
-		wp_deregister_script('jquery');
+if (!is_admin()) {//管理画面以外で使用する
+	function register_script(){//CSSとJavaScriptの読み込みコードを関数にまとめる
+		wp_deregister_script('jquery'); //jQueryをGoogleホストのCDNから読み込む
 		wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', array(), '1.7.2' );
+    //JavaScriptを読み込む
 		wp_register_script( 'css-modernizr', get_bloginfo('template_directory'). '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', true );
 		wp_register_script( 'jquery.meanmenu', get_bloginfo('template_directory'). '/library/js/libs/jquery.meanmenu.min.js', array('jquery'), '2.0.8', true );
 		wp_register_script( 'jquery.bxslider', get_bloginfo('template_directory'). '/library/js/libs/jquery.bxslider.min.js', array('jquery'), '4.1.2', true );
@@ -83,14 +84,14 @@ if (!is_admin()) {
 	}
 	function add_script() {
 		register_script();
-		if(is_front_page() || is_home()) {
+		if(is_front_page() || is_home()) {//トップ(フロントページとホーム)にだけに読み込む
 			wp_enqueue_script('jquery');
 			wp_enqueue_script( 'jquery.meanmenu' );
 			wp_enqueue_script( 'jquery.bxslider' );
 			wp_enqueue_script( 'main-js' );
 			wp_enqueue_script( 'css-modernizr' );
 			}
-			else {
+			else {//トップ(フロントページとホーム)以外に読み込む
 			wp_enqueue_script('jquery');
 			wp_enqueue_script( 'jquery.meanmenu' );
 			wp_enqueue_script( 'main-js' );
@@ -248,7 +249,7 @@ function breadcrumb($divOption = array("id" => "breadcrumb", "class" => "breadcr
         $str.= '<div'. $tagAttribute .'>';
         $str.= '<ul>';
         $str.= '<li itemtype="//data-vocabulary.org/Breadcrumb"><a href="'. home_url() .'/" itemprop="url"><i class="fa fa-home"></i> ホーム</a></li>';
- 
+
         if(is_category()) {
             $cat = get_queried_object();
             if($cat -> parent != 0){
@@ -360,7 +361,7 @@ function update_profile_fields( $contactmethods ) {
     $contactmethods['twitter'] = 'Twitter';
     $contactmethods['facebook'] = 'Facebook';
     $contactmethods['googleplus'] = 'Google+';
-     
+
     return $contactmethods;
 }
 add_filter('user_contactmethods','update_profile_fields',10,1);
